@@ -1,0 +1,272 @@
+Starting image processing
+~~~~~~~~~~~ POSE ESTIMATION LEFT CAMERA ~~~~~~~~~~~~~
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p0_0.png
+37 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p10_10.png
+27 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p11_11.png
+36 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p12_12.png
+31 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p1_1.png
+32 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p2_2.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p3_3.png
+43 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p4_4.png
+23 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p5_5.png
+36 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p6_6.png
+29 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p7_7.png
+37 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p8_8.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/left\left_p9_9.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p0_0.png
+44 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p10_10.png
+29 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p11_11.png
+41 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p12_12.png
+40 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p1_1.png
+36 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p2_2.png
+43 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p3_3.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p4_4.png
+33 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p5_5.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p6_6.png
+44 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p7_7.png
+39 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p8_8.png
+43 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p9_9.png
+44 number of Markers corners detected in the above image
+CAMERA CALIBRATION
+(640, 480)
+Camera Matrix initialization.............
+[[457.1668    0.      320.9126 ]
+ [  0.      456.0823  240.56018]
+ [  0.        0.        1.     ]]
+CAMERA CALIBRATION
+(640, 480)
+Camera Matrix initialization.............
+[[457.1668    0.      320.9126 ]
+ [  0.      456.0823  240.56018]
+ [  0.        0.        1.     ]]
+~~~~~~~~~~~~~RMS error of left~~~~~~~~~~~~~~
+0.47443530966566483
+0.5069984642107843
+[[463.22252511   0.         320.22597704]
+ [  0.         462.1236596  253.5867159 ]
+ [  0.           0.           1.        ]]
+[[465.46281354   0.         333.81044411]
+ [  0.         464.35863358 216.51404214]
+ [  0.           0.           1.        ]]
+[[ 5.76511185e+00]
+ [-6.70922940e+01]
+ [ 3.76707684e-03]
+ [-6.79342337e-03]
+ [ 5.44075244e+02]
+ [ 5.66740813e+00]
+ [-6.55730458e+01]
+ [ 5.36074020e+02]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]]
+[[-1.04444059e+01]
+ [ 3.30752868e+01]
+ [-2.63629234e-03]
+ [ 7.72597846e-03]
+ [-2.69033215e+01]
+ [-1.04555850e+01]
+ [ 3.31745092e+01]
+ [-2.71325316e+01]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]
+ [ 0.00000000e+00]]
+allIds_l
+13
+13
+allIds_l
+allIds_r
+~~~~~~~~~~~~~RMS error of L-R~~~~~~~~~~~~~~
+0.4489041192283453
+~~~~~ Starting Stereo Calibration ~~~~~
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p0_0.png
+35 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p10_10.png
+30 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p11_11.png
+38 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p12_12.png
+39 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p1_1.png
+36 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p2_2.png
+43 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p3_3.png
+44 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p4_4.png
+39 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p5_5.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p6_6.png
+37 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p7_7.png
+39 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p8_8.png
+44 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/rgb\rgb_p9_9.png
+38 number of Markers corners detected in the above image
+CAMERA CALIBRATION
+(640, 360)
+Camera Matrix initialization.............
+[[457.1668    0.      320.9126 ]
+ [  0.      456.0823  240.56018]
+ [  0.        0.        1.     ]]
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p0_0.png
+44 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p10_10.png
+29 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p11_11.png
+41 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p12_12.png
+40 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p1_1.png
+36 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p2_2.png
+43 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p3_3.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p4_4.png
+33 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p5_5.png
+42 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p6_6.png
+44 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p7_7.png
+34 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p8_8.png
+43 number of Markers corners detected in the above image
+=> Processing image C:\Users\kanya\OneDrive\Desktop\CV\depthai\dataset/right\right_p9_9.png
+44 number of Markers corners detected in the above image
+RGB callleded RMS at 360
+0.5304924316728405
+(360, 640)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+vs. intrinisics computed after scaling the image --->
+3.0
+[[513.34764433   0.         332.58424718]
+ [  0.         512.12987104 174.44702819]
+ [  0.           0.           1.        ]]
+[[1.54004293e+03 0.00000000e+00 9.97752742e+02]
+ [0.00000000e+00 1.53638961e+03 5.23341085e+02]
+ [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
+~~~~~~ Stereo calibration rgb-left RMS error ~~~~~~~~
+0.5372743174330001
+
+R1 (left)
+[[ 0.999916  0.002912  0.012658]
+ [-0.003004  0.999969  0.00726 ]
+ [-0.012637 -0.007298  0.999894]]
+
+R2 (right)
+[[ 0.999547 -0.00696   0.029285]
+ [ 0.007173  0.999949 -0.007175]
+ [-0.029234  0.007382  0.999545]]
+
+M1 (left)
+[[460.4727    0.      331.08118]
+ [  0.      462.28497 250.52808]
+ [  0.        0.        1.     ]]
+
+M2 (right)
+[[460.72147   0.      329.84488]
+ [  0.      462.1143  215.27315]
+ [  0.        0.        1.     ]]
+
+R
+[[ 0.99981   0.010297 -0.016526]
+ [-0.010057  0.999844  0.014553]
+ [ 0.016673 -0.014384  0.999758]]
+
+T
+[[-7.582031]
+ [ 0.052797]
+ [-0.222143]]
+
+M3 (rgb)
+[[1540.043      0.       997.75275]
+ [   0.      1536.3896   523.34106]
+ [   0.         0.         1.     ]]
+\R (rgb)
+[[ 0.999837 -0.012691  0.012813]
+ [ 0.012802  0.999881 -0.008631]
+ [-0.012702  0.008794  0.999881]]
+
+T (rgb)
+[[ 3.79512 ]
+ [-0.051525]
+ [ 0.315209]]
+        Took 2 seconds to run image processing.
+Mesh path
+C:\Users\kanya\OneDrive\Desktop\CV\depthai\depthai_helpers
+shape of maps
+(480, 640)
+(480, 640)
+(480, 640)
+(480, 640)
+<-----------------Epipolar error of LEFT-right camera---------------->
+HU IHER
+Printing p1 and p2
+[[462.199633   0.       322.581055   0.      ]
+ [  0.       462.199633 231.258244   0.      ]
+ [  0.         0.         1.         0.      ]]
+[[  462.199633     0.         322.581055 -3506.000534]
+ [    0.         462.199633   231.258244     0.      ]
+ [    0.           0.           1.           0.      ]]
+Image name right_p0_0.png
+Average Epipolar Error per image on host in right_p0_0.png : 0.10995928446451823
+Image name right_p10_10.png
+Average Epipolar Error per image on host in right_p10_10.png : 0.2071200284090909
+Image name right_p11_11.png
+Average Epipolar Error per image on host in right_p11_11.png : 0.16724296238111414
+Image name right_p12_12.png
+Average Epipolar Error per image on host in right_p12_12.png : 0.15822239925986842
+Image name right_p1_1.png
+Average Epipolar Error per image on host in right_p1_1.png : 0.19819913591657365
+Image name right_p2_2.png
+Average Epipolar Error per image on host in right_p2_2.png : 0.16263317239695582
+Image name right_p3_3.png
+Average Epipolar Error per image on host in right_p3_3.png : 0.18087818583504098
+Image name right_p4_4.png
+Average Epipolar Error per image on host in right_p4_4.png : 0.22774600982666016
+Image name right_p5_5.png
+Average Epipolar Error per image on host in right_p5_5.png : 0.15419371231742526
+Image name right_p6_6.png
+Average Epipolar Error per image on host in right_p6_6.png : 0.172943115234375
+Image name right_p7_7.png
+Average Epipolar Error per image on host in right_p7_7.png : 0.13586244128999256
+Image name right_p8_8.png
+Average Epipolar Error per image on host in right_p8_8.png : 0.15253224092371323
+Image name right_p9_9.png
+Average Epipolar Error per image on host in right_p9_9.png : 0.13509477887834823
+Average Epipolar Error: 0.15821671803792317
+Displaying Stereo Pair for visual inspection. Press the [ESC] key to exit.
